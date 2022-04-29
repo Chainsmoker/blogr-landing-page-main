@@ -98,7 +98,7 @@ a {
 }
 
 .inicio {
-    background-image: url("/images/bg-pattern-intro-desktop.svg"), linear-gradient(270deg, var(--rosa-oscuro) 3%, var(--rosa-oscuro) 40%, var(--rosa-oscuro) 6%, var(--piel) 100%);
+    background-image: url("../images/bg-pattern-intro-desktop.svg"), linear-gradient(270deg, var(--rosa-oscuro) 3%, var(--rosa-oscuro) 40%, var(--rosa-oscuro) 6%, var(--piel) 100%);
     background-position: 50% 50%;
     min-height: 100vh;
     color: var(--blanco);
