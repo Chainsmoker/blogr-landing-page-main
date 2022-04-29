@@ -98,7 +98,7 @@ a {
 }
 
 .inicio {
-    background-image: url("./images/bg-pattern-intro-desktop.svg"), linear-gradient(270deg, var(--rosa-oscuro) 3%, var(--rosa-oscuro) 40%, var(--rosa-oscuro) 6%, var(--piel) 100%);
+    background-image: url("../images/bg-pattern-intro-desktop.svg"), linear-gradient(270deg, var(--rosa-oscuro) 3%, var(--rosa-oscuro) 40%, var(--rosa-oscuro) 6%, var(--piel) 100%);
     background-position: 50% 50%;
     min-height: 100vh;
     color: var(--blanco);
@@ -242,7 +242,7 @@ a {
 .seccion3__imagen {
     grid-column: 1 / 7;
     grid-row: 1 / -1;
-    background-image: url("/images/bg-pattern-circles.svg");
+    background-image: url("../images/bg-pattern-circles.svg");
     background-position-y: -200px;
     background-size: cover;
 }
@@ -281,7 +281,7 @@ a {
     grid-row: 3 / -2;
     display: flex;
     justify-content: flex-end;
-    background-image: url("images/illustration-laptop-desktop.svg");
+    background-image: url("../images/illustration-laptop-desktop.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -340,9 +340,6 @@ a {
     .seccion3__imagen {
         grid-column: 1 / 7;
         grid-row: 1 / -1;
-        background-image: url("/images/bg-pattern-circles.svg");
-        background-position-y: -200px;
-        background-size: cover;
     }
     
     .seccion3__imagen img {
